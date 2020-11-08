@@ -1,14 +1,10 @@
 package mx.com.jcesar.user.utils;
 
-import lombok.extern.log4j.Log4j2;
-import mx.com.jcesar.user.entity.BaseEntity;
-import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Service;
 import org.springframework.util.ReflectionUtils;
 
 

@@ -2,6 +2,7 @@ package mx.com.jcesar.user.entity;
 
 import lombok.Getter;
 import lombok.Setter;
+import mx.com.jcesar.user.utils.BaseEntity;
 import org.hibernate.annotations.Polymorphism;
 import org.hibernate.annotations.PolymorphismType;
 

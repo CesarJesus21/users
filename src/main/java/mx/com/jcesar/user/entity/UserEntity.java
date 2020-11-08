@@ -1,11 +1,10 @@
 package mx.com.jcesar.user.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreType;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonSetter;
 import lombok.Getter;
 import lombok.Setter;
+import mx.com.jcesar.user.utils.BaseEntity;
 import org.hibernate.annotations.Polymorphism;
 import org.hibernate.annotations.PolymorphismType;
 
@@ -19,7 +18,7 @@ import javax.validation.constraints.Size;
 @Entity
 @Table(name = "users")
 @Polymorphism(type = PolymorphismType.EXPLICIT)
-public class UserEntity extends BaseEntity{
+public class UserEntity extends BaseEntity {
 
     @Column(unique = true, nullable = false)
     @Size(min = 8, max = 255)

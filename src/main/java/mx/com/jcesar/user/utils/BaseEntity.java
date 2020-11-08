@@ -1,4 +1,4 @@
-package mx.com.jcesar.user.entity;
+package mx.com.jcesar.user.utils;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
