@@ -1,0 +1,2 @@
+insert into users(id, creation_date, update_date, enable, author, name, password, email) values ('1', current_timestamp , current_timestamp , 1, 'CESAR JESUS GG', 'USER 1','BIJASFIEOIEJFIEFJIF', 'cesar_jgg@outlook.com');
+insert into users(id, creation_date, update_date, enable, author, name, password, email) values ('2', current_timestamp , current_timestamp , 0, 'CESAR JESUS GG', 'USER 2','IFHIHFISIUHEUIHLAñO', 'cesar.jesus.gugu@gmail.com');

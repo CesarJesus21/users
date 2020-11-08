@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: users
+  jpa:
+    hibernate:
+      ddl-auto: create
+    open-in-view: on
+  datasource:
+    platform: h2
+
+server:
+  port: 8083
+
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
